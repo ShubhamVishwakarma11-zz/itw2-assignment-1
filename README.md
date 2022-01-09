@@ -2,7 +2,7 @@
 
 ### Task
 
-##### Build a simple website containing 10 HTML pages. Website should have -
+##### Build a simple static website containing 10 HTML pages. Website should have -
 
 - lists
 - tables
