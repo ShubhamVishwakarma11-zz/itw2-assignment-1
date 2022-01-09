@@ -27,3 +27,10 @@ This is a simple static website showing information about a library.
 - CSS3
 - BootStrap 5
 
+### About the 10 pages
+ 
+- Landing page
+- Sign Up 
+- Log In
+- Explore Library
+- 
