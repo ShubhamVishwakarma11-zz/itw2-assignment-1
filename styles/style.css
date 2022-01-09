@@ -145,3 +145,11 @@ p{
     margin: 40px 0;
     text-align: left;
 }
+
+/* Log In Page */
+.login-container {
+    margin: 0 25%;
+    padding: 5% 3%;
+    background-color: #f2f8ff;
+    border-radius: 1.5rem;
+}
