@@ -153,3 +153,10 @@ p{
     background-color: #f2f8ff;
     border-radius: 1.5rem;
 }
+
+/* Pricing Page */
+.pricing-container {
+    margin: 0 10%;
+    padding: 5% 3%;
+    background-color: #f2f8ff;
+}
