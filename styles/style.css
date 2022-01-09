@@ -8,14 +8,52 @@ body {
 
 h1 {
     color: #ff793f;
+    font-size: 5rem;
 }
 
-h2,h3,h4,h5,a{
+h2 {
     color: #0f4189;
+    /* color: #ff793f; */
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+h3,h4,h5{
+    color: #0f4189;
+}
+
+a {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 p{
     color: #666a7b;
+}
+
+.login-btn{
+    background-color: #0f4189;
+    color: #ffffff;
+}
+.login-btn:hover {
+    color: #ffffff;
+    background-color: #ff793f;
+}
+
+.signup-btn{
+    background-color: #ffffff;
+    color: #0f4189;
+    border: #0f4189 solid 1.5px;
+}
+.signup-btn:hover {
+    color: #ff793f;
+    border: #ff793f solid 1.5px;
 }
 
 .container-fluid{
@@ -39,11 +77,50 @@ p{
 /* Navigation-Bar */
 .navigation-bar {
     background-color: #f2f8ff;
+    position: fixed;
+    width: 100%;
 }
 
+.nav-link {
+    color:#0f4189;
+}
 
 
 /* Title-Section */
 .title-container{
-    padding: 5% 10%;
+    padding: 15% 0 10%;
+}
+
+.title-text {
+    margin: 10% 5%;
+}
+
+.title-img{
+    width: 110%;
+}
+
+/* Features-Section */
+.features-section-top{
+    text-align: center;
+    padding: 15% 2% 5%;
+}
+
+.features-section-bottom{
+    text-align: center;
+    padding: 2% 2%;
+}
+
+.feature-card {
+    padding: 2% 7%;
+}
+
+.feature-icon {
+    color: #ff793f;
+    font-size: 4rem;
+    margin: 10%;
+}
+
+/* Footer Section */
+.footer-section {
+    margin: 5% 2%;
 }
