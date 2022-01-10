@@ -84,6 +84,7 @@ p{
     background-color: #f2f8ff;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 .nav-link {
@@ -159,4 +160,41 @@ p{
     margin: 0 10%;
     padding: 5% 3%;
     background-color: #f2f8ff;
+}
+
+/* Explore Page */
+.card-deck{
+    margin-top: 2rem;
+    padding: 5%;
+    background-color: #f2f8ff;
+}
+
+.book-card {
+    margin: 2% 0 0 5% ;
+    padding:0;
+    background-color: #ffffff;
+
+}
+
+.book-img-container {
+    overflow: hidden;
+}
+.book-img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform .5s ease;
+}
+
+.book-text {
+    padding: 2%;
+}
+
+.book-card:hover 
+.book-img{
+    transform: scale(1.1);
+}
+
+.book-card:hover
+.book-title{
+    color: #ff793f;
 }
