@@ -40,6 +40,12 @@ a {
 
 p{
     color: #666a7b;
+    font-size: 1.2rem;
+}
+
+span {
+    color: #666a7b;
+    font-size: 0.8rem;
 }
 
 .login-btn{
@@ -94,7 +100,7 @@ p{
 
 /* Title-Section */
 .title-container{
-    padding: 15% 0 10%;
+    padding: 15% 0 5%;
 }
 
 .title-text {
@@ -163,6 +169,21 @@ p{
 }
 
 /* Explore Page */
+
+.explore-container{
+    margin-top: 2rem;
+    padding: 5% 10%;
+    background-color: #f2f8ff;
+}
+
+.explore-list {
+    padding: 5% 10% 5% 20%;
+}
+
+.explore-list-item {
+    padding: 1%;
+}
+
 .card-deck{
     margin-top: 2rem;
     padding: 5%;
@@ -198,4 +219,12 @@ p{
 .book-card:hover
 .book-title{
     color: #ff793f;
+}
+
+/* About Us Page */
+.about-us-container {
+    margin: 3% 20% 0;
+    padding: 5% 3%;
+    background-color: #f2f8ff;
+    border-radius: 1.5rem;
 }
