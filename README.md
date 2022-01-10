@@ -34,6 +34,9 @@ This is a simple static website showing information about a library.
  
 - Landing page
 - Sign Up 
+- Sign Up follow up pages
 - Log In
 - Explore Library
-- 
+- Pricing
+- About Us
+
